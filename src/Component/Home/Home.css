@@ -1,0 +1,867 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* ---- Part One ------ */
+
+.w-100 {
+    width: 100%!important;
+    height: 34rem;
+}
+
+.carousel {
+    position: relative;
+    height: 34rem;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+/* ---------- */
+
+/* ----- PArt Two */
+
+.PartTwo {
+    /* background-color: silver; */
+    height: 40rem;
+    /* border: 1px solid; */
+}
+
+.PartTwoVideo {
+    position: absolute;
+    height: 27rem;
+    border-radius: 33px;
+    top: 109%;
+    left: 20rem;
+    width: 47rem;
+}
+
+.items a {
+    display: inline-block;
+    text-decoration: none;
+    height: 25px !important;
+    color: black;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 20px;
+    overflow: hidden;
+    position: absolute;
+    line-height: 28px;
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+    letter-spacing: 4px;
+    left: 4%;
+    top: 190%;
+    transition: all 0.4s;
+}
+
+.items a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.items a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.items a:hover span,
+.items a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+/* /* ----------------- * */
+
+/* ----- Part Three */
+
+.PartThree {
+    background: #111;
+    height: 38rem;
+}
+
+.PartThreeSpacer {
+    height: 30px;
+}
+
+.PartThreeBlocOne {
+    text-align: end;
+    /* border: 1px solid white; */
+    height: 27rem;
+    width: 29rem;
+    top: 227%;
+    position: absolute;
+    left: 16%;
+    color: white;
+}
+
+.PartThreeBlocOne h2 {
+    font-size: 37px;
+    line-height: 51px;
+    letter-spacing: 7px;
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "HelveticaNeueLTStd-LtCn", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.PartThreePP {
+    /* border: 1px solid white; */
+    height: 18rem;
+    width: 30rem;
+    /* margin-top: -1px; */
+    position: absolute;
+    left: -1rem;
+    font-size: 13px;
+    font-family: fangsong;
+    color: white;
+}
+.PartThreeBlocTwo{
+    overflow: hidden;
+}
+
+.PartThreeBlocTwo img {
+    position: absolute;
+    top: 82.3rem;
+    left: 45rem;
+    transition: 1s all ease-in-out;
+    
+}
+
+.PartThreeBlocTwo img:hover {
+    transform: scale(1.1);
+}
+
+/* ------------PartThree Footer --- */
+
+.PartThreeFooter {
+    position: absolute;
+    top: 289%;
+    left: 30%;
+    width: 36rem;
+    border: 1px solid white;
+}
+
+.PartThreeAOne a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    overflow: hidden;
+    position: absolute;
+    left: 33%;
+    top: 288%;
+    transition: all 0.4s;
+}
+
+.PartThreeAOne span {
+    margin-left: 10px;
+}
+
+.PartThreeAOne a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartThreeAOne a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartThreeAOne a:hover span,
+.PartThreeAOne a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+.PartThreeATwo a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+    top: 288%;
+    transition: all 0.4s;
+}
+
+.PartThreeATwo span {
+    margin-left: 10px;
+}
+
+.PartThreeATwo a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartThreeATwo a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartThreeATwo a:hover span,
+.PartThreeATwo a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+.PartThreeAThree a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    overflow: hidden;
+    position: absolute;
+    left: 47%;
+    top: 288%;
+    transition: all 0.4s;
+}
+
+.PartThreeAThree span {
+    margin-left: 10px;
+}
+
+.PartThreeAThree a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartThreeAThree a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartThreeAThree a:hover span,
+.PartThreeAThree a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+.PartThreeAFour a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    overflow: hidden;
+    position: absolute;
+    left: 65.5%;
+    top: 288%;
+    transition: all 0.4s;
+}
+
+.PartThreeAFour span {
+    margin-left: 10px;
+}
+
+.PartThreeAFour a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartThreeAFour a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartThreeAFour a:hover span,
+.PartThreeAFour a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+/* ----------------- */
+
+/* ----------- */
+
+/* -------- PartFour */
+
+.PartFour {
+    /* background-color: silver; */
+    height: 33rem;
+}
+
+.PartFour img {
+    height: 23rem;
+    width: 30rem;
+    position: absolute;
+    left: 16rem;
+    top: 308%;
+}
+
+.PartFour video {
+    height: 9.9rem;
+    width: 13.3rem;
+    position: absolute;
+    top: 334%;
+    left: 19rem;
+}
+
+.PartFourBlocs h1 {
+    font-size: 36px;
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    top: 322%;
+    position: absolute;
+    transition: all 0.4s;
+    left: 47rem;
+}
+
+.PartFourBlocs p {
+    top: 346%;
+    position: absolute;
+    transition: all 0.4s;
+    left: 47rem;
+    width: 27rem;
+    font-size: 12px;
+}
+
+/* --------------- */
+
+/* --------PartFive */
+
+.PartFive {
+    background-color: silver;
+}
+
+.CarouselOne {
+    display: flex;
+}
+
+#CarouselOneImgOne {
+    height: 34rem;
+}
+
+#CarouselOneImgTwo {
+    height: 34rem;
+}
+
+.PartFive h3 {
+    position: absolute;
+    font-size: 20px;
+    top: -22em;
+    text-transform: uppercase;
+    left: 47rem;
+}
+
+.CarouselA {
+    position: absolute;
+    font-size: 40px;
+    top: -6.1em;
+    text-transform: uppercase;
+    left: 45rem;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: white;
+    transition: transform .5s
+}
+
+.CarouselA:hover {
+    color: white;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.CarouselATwo {
+    position: absolute;
+    font-size: 18px;
+    text-decoration: underline;
+    top: -1em;
+    text-transform: uppercase;
+    left: 47rem;
+    color: rgb(182, 182, 182);
+    transition: transform .2s
+}
+
+.CarouselATwo:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* ------------- */
+
+/* -----PartSix---- */
+
+.PartSix {
+    background: linear-gradient(to top left, #fefeff 0%, #838383 455%);
+    height: 48rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+/* body {
+    background-color: #555;
+} */
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    top: 5%;
+    position: relative;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.news-card {
+    border: 0px solid aqua;
+    margin: 0.5rem;
+    position: relative;
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    flex: 1;
+    min-width: 290px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+}
+
+@media (min-width: 900px) {
+    .news-card {
+        height: 20rem
+    }
+}
+
+.news-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.7) 80%);
+    ;
+    z-index: 0;
+}
+
+.news-card__card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*     background: rgba(255,0,0,.5); */
+}
+
+.news-card__image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 3s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.news-card__text-wrapper {
+    position: absolute;
+    bottom: 0rem;
+    padding: 1rem;
+    color: white;
+    /*     background-color: rgba(0, 0, 0, 0.4); */
+    transition: background-color 1.5s ease;
+}
+
+.news-card__title {
+    transition: color 1s ease;
+    margin-bottom: .5rem;
+}
+
+.news-card__post-date {
+    font-size: .7rem;
+    margin-bottom: .5rem;
+    color: #CCC;
+}
+
+.news-card__details-wrapper {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1.5s ease, opacity 1s ease;
+}
+
+@media (min-width: 900px) {
+    .news-card:hover .news-card__details-wrapper {
+        max-height: 20rem;
+        opacity: 1;
+    }
+    .news-card:hover .news-card__text-wrapper {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .news-card:hover .news-card__title {
+        color: yellow;
+    }
+    .news-card:hover .news-card__image {
+        transform: scale(1.2);
+        z-index: -1;
+    }
+}
+
+.news-card__excerpt {
+    font-weight: 300;
+}
+
+.news-card__read-more {
+    background: black;
+    color: #bbb;
+    display: block;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    border: 1px solid #444;
+    font-size: 0.8rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-decoration: none;
+    width: 7rem;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.news-card__read-more i {
+    position: relative;
+    left: 0.2rem;
+    color: #888;
+    transition: left 0.5s ease, color 0.6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.news-card__read-more:hover i {
+    left: 0.5rem;
+    color: yellow;
+}
+
+/* -------------------- */
+
+/* -----PartSeven */
+
+.PartSeven {
+    /* background-color: silver; */
+    background: linear-gradient(to top left, #fefeff 0%, #838383 455%);
+    height: 33rem;
+}
+
+.PartSeven h1 {
+    width: 40rem;
+    position: relative;
+    top: 15%;
+    left: 30%;
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+    letter-spacing: 4px;
+}
+
+.PartSeven h3 {
+    width: 50rem;
+    /* background-color: white; */
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+    position: relative;
+    top: 24%;
+    left: 22%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.PartSeven p {
+    width: 5rem;
+    top: 33%;
+    font-size: 23px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+    left: 45%;
+    position: relative;
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+}
+
+/* -------------------- */
+
+/* ------- PartEight ---- */
+
+.PartEight {
+    /* border: 1px solid black; */
+    height: 21rem;
+}
+
+.PartEight h4 {
+    font-size: 37px;
+    margin-top: 31px;
+    margin-left: 81px;
+    margin-bottom: -8px;
+    font-family: cursive;
+    letter-spacing: 3px;
+    color: #646464;
+}
+.PartEight hr {
+    width: 20rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+.PartEight img{
+    width: 13rem;
+    position: absolute;
+    top: 268rem;
+    left: 75%;
+}
+
+.PartEightAOne a {
+    color: rgb(104 103 103);
+    text-transform: uppercase;
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 9%;
+    top: 371em;
+    transition: all 0.4s;
+}
+
+
+.PartEightAOne span {
+    margin-left: 10px;
+}
+
+.PartEightAOne a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartEightAOne a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartEightAOne a:hover span,
+.PartEightAOne a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+
+
+.PartEightATwo a {
+    color: rgb(104 103 103);
+    text-transform: uppercase;
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 16%;
+    top: 371em;
+    transition: all 0.4s;
+}
+
+
+.PartEightATwo span {
+    margin-left: 10px;
+}
+
+.PartEightATwo a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartEightATwo a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartEightATwo a:hover span,
+.PartEightATwo a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+
+
+
+
+
+.PartEightAFour a {
+    color: rgb(104 103 103);
+    text-transform: uppercase;
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 34.5%;
+    top: 371em;
+    transition: all 0.4s;
+}
+
+
+.PartEightAFour span {
+    margin-left: 10px;
+}
+
+.PartEightAFour a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartEightAFour a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartEightAFour a:hover span,
+.PartEightAFour a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+
+
+
+
+.PartEightAThree a {
+    color: rgb(104 103 103);
+    text-transform: uppercase;
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 25.5%;
+    top: 371em;
+    transition: all 0.4s;
+}
+
+
+.PartEightAThree span {
+    margin-left: 10px;
+}
+
+.PartEightAThree a span {
+    display: inline-block;
+    position: relative;
+    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 500ms;
+    -moz-transition: transform 500ms;
+}
+
+.PartEightAThree a span:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.PartEightAThree a:hover span,
+.PartEightAThree a:focus span {
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+}
+
+.social {
+    width: 17rem;
+    position: absolute;
+    /* top: 900%; */
+    margin-top: 30px;
+    display: flex;
+    left: 5%;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: auto;
+    color: inherit;
+}
+
+.footer-basic .social>a:hover {
+    color: rgb(34 84 126 / 54%);
+}
+
+
+
+/* ------------------------ */

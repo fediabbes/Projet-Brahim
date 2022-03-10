@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.ProductsPartOne {
+    background-image: url('https://content.poliform.it/assets/2021/09/Poliform_cover_collection_1920x864px_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.ProductsPartOne h1 {
+    font-family: "Bodoni-SvtyTwo-ITC-TT-Book", serif;
+    letter-spacing: 4px;
+    color: white;
+    position: absolute;
+    left: 43%;
+    top: 38%;
+    text-transform: uppercase;
+}
+
+/* -------- Part Two --------------*/
+
+.ProductsPartTwo {
+    background-color: #d9d9d9;
+}
+
+.ProductsPartTwoCard {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 37px;
+    box-shadow: 1px 2px 35px 25px #b1b1b1;
+}
+.card:hover{
+    box-shadow: 1px 2px 35px 25px #8f8f8f;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+
+
+}
+
+/* -------------- */
